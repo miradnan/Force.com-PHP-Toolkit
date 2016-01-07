@@ -1,0 +1,29 @@
+{
+    "name": "miradnan/force.com-toolkit-for-php",
+    "description": "A wrapper for the Force.com Web Services SOAP API",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-mbstring": "*",
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "files": [
+            "src/bootstrap.php"
+        ],
+        "psr-4": {
+            "Salesforce\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "src/bootstrap.php"
+        ],
+        "psr-4": {
+            "Salesforce\\Tests\\": "tests/"
+        }
+    }
+}
