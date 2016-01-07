@@ -28,6 +28,7 @@
 
 namespace Salesforce;
 
+use SoapHeader;
 /**
  * This file contains one class.
  * @package SalesforceSoapClient
