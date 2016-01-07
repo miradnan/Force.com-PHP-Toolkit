@@ -182,7 +182,7 @@ class PartnerClient extends Client {
     }
 
     public function getWsdlPath() {
-        return __DIR__ . DIRECTORY_SEPARATOR . 'soapclient' . DIRECTORY_SEPARATOR;
+        return dirname(__DIR__) . DIRECTORY_SEPARATOR . 'soapclient' . DIRECTORY_SEPARATOR;
     }
 
 }
