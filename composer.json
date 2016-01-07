@@ -1,5 +1,5 @@
 {
-    "name": "miradnan/force.com-toolkit-for-php",
+    "name": "miradnan/force.com-php-toolkit",
     "description": "A wrapper for the Force.com Web Services SOAP API",
     "license": "BSD-3-Clause",
     "require": {
