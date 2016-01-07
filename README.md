@@ -1,6 +1,6 @@
 Force.com Toolkit for PHP
 =========================
 
-The Force.com PHP Toolkit provides an easy-to-use wrapper for the Force.com Web Services SOAP API, presenting SOAP client implementations for both the enterprise and partner WSDLs.
+This is originally forked from [!developerforce/Force.com-Toolkit-for-PHP](https://github.com/developerforce/Force.com-Toolkit-for-PHP).
 
-See the [getting started guide](http://wiki.developerforce.com/index.php/Getting_Started_with_the_Force.com_Toolkit_for_PHP) for sample code to create, retrieve, update and delete records in the Force.com database.
+This package is refactored version of the above package to support PHP version > 5.4. It uses composers default PSR-4 Autoloading.
