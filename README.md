@@ -29,5 +29,4 @@ $wsdlFile = $wsdlPath . 'partner.wsdl.xml';
 $SfConnection = $SfClient->createConnection($wsdlFile);
 
 // write some cool code here...
-
 ```
