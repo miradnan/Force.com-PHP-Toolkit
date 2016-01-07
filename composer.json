@@ -1,6 +1,8 @@
 {
     "name": "miradnan/force.com-php-toolkit",
     "description": "A wrapper for the Force.com Web Services SOAP API",
+    "keywords": ["Salesforce", "Salesforce SDK"],
+    "language": "php",
     "license": "BSD-3-Clause",
     "require": {
         "php": ">=5.4.0",
